@@ -2,21 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/"
-    android:weightSum="1">
+    android:id="@+id/Linearlayout"
+    android:weightSum="1"
+    android:background="#ff5170ff">
 
     <SearchView
-        android:layout_width="wrap_content"
+        android:layout_width="388dp"
         android:layout_height="wrap_content"
-        android:id="@+id/searchView2"
-        android:layout_gravity="right" />
+        android:id="@+id/searchView"
+        android:layout_gravity="right"
+        android:background="#ffeadeff"
+        android:clickable="false" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="59dp"
         android:id="@+id/editText12"
         android:text="Info Here!"
-        android:textSize="45dp" />
+        android:textSize="45dp"
+        android:background="#ffeadeff"
+        android:clickable="false" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 
     <ImageView
         android:layout_width="wrap_content"

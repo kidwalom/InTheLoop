@@ -4,10 +4,11 @@
     android:layout_height="match_parent">
 
     <SearchView
-        android:layout_width="wrap_content"
+        android:layout_width="386dp"
         android:layout_height="wrap_content"
         android:id="@+id/searchView"
-        android:layout_gravity="right" />
+        android:layout_gravity="right"
+        android:background="#ffeadeff" />
 
     <GridLayout
         android:layout_width="fill_parent"
@@ -26,11 +27,12 @@
                 android:layout_gravity="center_horizontal"
                 android:textSize="70dp"
                 android:textAlignment="center"
-                android:background="#ff000dff" />
+                android:background="#ffeadeff" />
 
             <TableRow
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="81dp"
+                android:background="#ff5170ff">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -58,14 +60,16 @@
 
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/editText6" />
+                android:id="@+id/editText6"
+                android:background="#ff5170ff" />
 
             <TableRow
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="81dp"
+                android:background="#ff5170ff">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -92,14 +96,16 @@
 
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/editText7" />
+                android:id="@+id/editText7"
+                android:background="#ff5170ff" />
 
             <TableRow
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="81dp"
+                android:background="#ff5170ff">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -127,14 +133,16 @@
 
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/editText8" />
+                android:id="@+id/editText8"
+                android:background="#ff5170ff" />
 
             <TableRow
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" >
+                android:layout_height="81dp"
+                android:background="#ff5170ff">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -161,14 +169,16 @@
 
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/editText10" />
+                android:id="@+id/editText10"
+                android:background="#ff5170ff" />
 
             <TableRow
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+                android:layout_height="81dp"
+                android:background="#ff5170ff">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -195,15 +205,17 @@
 
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/editText9" />
+                android:id="@+id/editText9"
+                android:background="#ff5170ff" />
 
             <StackView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/stackView" />
+                android:layout_height="match_parent"
+                android:id="@+id/stackView"
+                android:background="#ff5170ff" />
         </TableLayout>
 
     </GridLayout>
