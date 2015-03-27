@@ -72,7 +72,7 @@ public class frontpage extends ActionBarActivity
 
     public void swtichMEplease(View view) {
         // Kabloey
-        startActivity(new Intent(activity_frontpage.this, YourNewActivity.class));
+
     }
 
     public void restoreActionBar() {
