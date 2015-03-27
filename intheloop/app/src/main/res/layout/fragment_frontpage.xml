@@ -9,17 +9,22 @@
     android:focusable="true"
     android:focusableInTouchMode="true">
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to InTheLoop"
-        android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:clickable="true"
-        android:textColor="#9999"
-        android:textSize="18sp"
-        android:onClick="switchMEplease"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to InTheLoop"
+            android:id="@+id/button"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:textColor="#9999"
+            android:textSize="18sp"
+            android:onClick="switchMEplease"/>
+    </RelativeLayout>
 
 </RelativeLayout>
