@@ -70,6 +70,10 @@ public class frontpage extends ActionBarActivity
         }
     }
 
+    public void swtichMEplease(View view) {
+        // Kabloey
+    }
+
     public void restoreActionBar() {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
